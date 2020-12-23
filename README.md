@@ -13,7 +13,7 @@ $ pod repo add MobileWorkflow git@github.com:FutureWorkshops/MWPodspecs.git
 To add this repo as a source on your Podfile:
 
 ```ruby
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://cdn.cocoapods.org/'
 source 'https://github.com/FutureWorkshops/MWPodspecs.git'
 ```
 
