@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                  = 'MWInnovatricsDOTPlugin'
-    s.version               = '0.0.15'
+    s.version               = '0.0.16'
     s.summary               = 'Innovatrics DOT plugin for MobileWorkflow on iOS.'
     s.description           = <<-DESC
     Innovatrics DOT plugin for MobileWorkflow on iOS, based on: https://www.innovatrics.com/digital-onboarding-toolkit/
