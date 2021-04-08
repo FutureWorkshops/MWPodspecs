@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '13.0'
 	s.default_subspecs      = 'Core'
 	s.deprecated                = true
-	spec.deprecated_in_favor_of = 'MWContentDisplayPlugin'
+	s.deprecated_in_favor_of = 'MWContentDisplayPlugin'
 	
     s.subspec 'Core' do |cs|
 	    cs.dependency            'MobileWorkflow'
