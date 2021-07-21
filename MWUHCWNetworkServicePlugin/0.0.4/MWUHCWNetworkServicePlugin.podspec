@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'MWUHCWNetworkServicePlugin'
-  s.version               = '0.0.3'
+  s.version               = '0.0.4'
   s.summary               = 'A plugin to perform authentication against a UHWC validation endpoint, given a username and password.'
   s.homepage              = 'https://www.mobileworkflow.io'
   s.license               = { :type => 'Copyright', :file => 'LICENSE' }
