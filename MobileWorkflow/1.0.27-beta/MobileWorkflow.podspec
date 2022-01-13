@@ -6,10 +6,7 @@ Pod::Spec.new do |s|
     Core functionality for MobileWorkflow on iOS, including ResearchKit derived steps and addtional custom steps.
     DESC
     s.homepage              = 'https://www.mobileworkflow.io'
-    s.license               = { :type => 'Copyright', :text => <<-LICENSE
-Copyright (c) 2020 Future Workshops
-                              LICENSE
-                              }
+    s.license               = { :type => 'Copyright', :file => 'LICENSE' }
     s.author                = { 'Future Workshops' => 'info@futureworkshops.com' }
     s.source                = { :http => 'https://raw.github.com/FutureWorkshops/MobileWorkflowCore-iOS-Distribution/test/zip_release/MobileWorkflow.zip' }
     s.platform              = :ios
