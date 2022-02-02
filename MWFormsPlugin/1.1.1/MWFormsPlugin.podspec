@@ -18,6 +18,5 @@ Pod::Spec.new do |s|
         cs.dependency            'MobileWorkflow', '~> 2.0.0'
         cs.vendored_frameworks   = 'MWFormsPlugin.xcframework'
         cs.preserve_paths        = ['MWFormsPlugin.xcframework']
-
     end
 end
