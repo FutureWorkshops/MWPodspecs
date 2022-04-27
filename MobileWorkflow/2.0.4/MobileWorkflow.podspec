@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     s.module_name           = 'MobileWorkflowCore'
 
     s.subspec 'Core' do |cs|
-        cs.source_files          = 'MobileWorkflowCore/**/*.{swift,h,m}'
-        cs.resources             = ['MobileWorkflowCore/**/*.{xib,xcassets,strings,stringsdict,m4v,fsh,vsh}']
+        cs.vendored_frameworks   = 'MobileWorkflowCore.xcframework'
+        cs.preserve_paths        = ['MobileWorkflowCore.xcframework']
     end
 end
