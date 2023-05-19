@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'MWAdvancedCameraPlugin'
-    s.version               = '1.1.1'
+    s.version               = '1.1.2'
   s.summary               = 'A plugin for AppRail.'
   s.homepage              = 'https://app-rail.io'
   s.license               = { :type => 'Copyright', :file => 'LICENSE' }
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |cs|
     cs.framework          = 'AVFoundation'
     cs.framework          = 'AVKit'
-        cs.dependency            'MobileWorkflow', '~> 2.1.12'
+        cs.dependency            'MobileWorkflow', '~> 2.1.19'
     cs.dependency           'MWCameraPlugin', '~> 0.3.0'
         cs.vendored_frameworks   = 'MWAdvancedCameraPlugin.xcframework'
         cs.preserve_paths        = ['MWAdvancedCameraPlugin.xcframework']
